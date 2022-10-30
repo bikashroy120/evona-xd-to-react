@@ -73,3 +73,142 @@
 
 
 
+@media only screen and (max-width:1202px) {
+    .hero_contant h3{
+        font-size: 36px;
+        font-weight: 600;
+        text-transform: capitalize;
+        color: var(--secondry);
+    }
+    
+    
+    .hero_contant h2{
+        font-size: 57px;
+        font-weight: 600;
+        text-transform: capitalize;
+        color: var(--secondry);
+    }
+    
+    
+    .hero_contant p{
+        margin-top: 64px;
+        font-size: 20px;
+        color: var(--secondry);
+        font-weight: 400;
+    }
+
+    .hero_contant{
+        margin-top: 74px;
+    }
+
+
+    .hero_img img{
+        width: 500px;
+    }
+
+
+    .hero_img::after{
+        content: '';
+        position: absolute;
+        top: 60px;
+        left: 60px;
+        width: 400px;
+        height: 400px;
+        background: #0A6D64;
+        border-radius: 50%;
+        z-index: -11;
+        opacity: 20%;
+    }
+    
+}
+
+
+@media only screen and (max-width:992px) {
+    .hero_contant h3{
+        font-size: 26px;
+        font-weight: 600;
+        text-transform: capitalize;
+        color: var(--secondry);
+    }
+    
+    
+    .hero_contant h2{
+        font-size: 47px;
+        font-weight: 600;
+        text-transform: capitalize;
+        color: var(--secondry);
+    }
+    
+    
+    .hero_contant p{
+        margin-top: 64px;
+        font-size: 18px;
+        color: var(--secondry);
+        font-weight: 400;
+    }
+    .hero_img{
+        margin-top: 20px;
+    }
+}
+
+
+@media only screen and (max-width:518px) {
+    
+    .hero_img img{
+        width: 80%;
+    }
+
+
+    .hero_img::after{
+        content: '';
+        position: absolute;
+        top: 60px;
+        left: 60px;
+        width: 70%;
+        height: 80%;
+        background: #0A6D64;
+        border-radius: 50%;
+        z-index: -11;
+        opacity: 20%;
+    }
+    
+}
+
+
+@media only screen and (max-width:425px) {
+    .hero_contant h3{
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: capitalize;
+        color: var(--secondry);
+    }
+
+    .hero_contant{
+        margin-top: 24px;
+    }
+    
+    
+    .hero_contant h2{
+        font-size: 27px;
+        font-weight: 600;
+        text-transform: capitalize;
+        color: var(--secondry);
+    }
+    
+    
+    .hero_contant p{
+        margin-top: 24px;
+        font-size: 18px;
+        color: var(--secondry);
+        font-weight: 400;
+    }
+
+    .hero_button{
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+
+    .brand_area img{
+        width: 100px;
+    }
+}
