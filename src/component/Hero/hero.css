@@ -1,0 +1,75 @@
+.hero_img img{
+    width: 600px;
+}
+
+.hero_contant{
+    margin-top: 84px;
+}
+
+.hero_contant h3{
+    font-size: 46px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: var(--secondry);
+}
+
+
+.hero_contant h2{
+    font-size: 67px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: var(--secondry);
+}
+
+
+.hero_contant p{
+    margin-top: 84px;
+    font-size: 30px;
+    color: var(--secondry);
+    font-weight: 400;
+}
+
+
+.hero_button{
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.brand_area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+    flex-wrap: wrap;
+}
+
+
+.brand_area img{
+    width: 156px;
+
+}
+
+
+.poso{
+    position: relative;
+}
+
+
+.hero_img::after{
+    content: '';
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    width: 500px;
+    height: 500px;
+    background: #0A6D64;
+    border-radius: 50%;
+    z-index: -11;
+    opacity: 20%;
+}
+
+
+
