@@ -1,5 +1,6 @@
 import React from 'react'
 import Hero from '../component/Hero/Hero'
+import Project from '../component/project/Project'
 import Story from '../component/story/Story'
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
     <>
         <Hero />
         <Story />
+        <Project />
     </>
   )
 }
