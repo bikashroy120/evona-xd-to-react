@@ -1,5 +1,6 @@
 import React from 'react'
 import CountDown from '../component/countDown/CountDown'
+import Feedback from '../component/feedback/Feedback'
 import Hero from '../component/Hero/Hero'
 import Project from '../component/project/Project'
 import Story from '../component/story/Story'
@@ -13,6 +14,7 @@ const Home = () => {
         <Project />
         <CountDown />
         <Team />
+        <Feedback />
     </>
   )
 }
