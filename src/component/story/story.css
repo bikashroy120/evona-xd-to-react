@@ -69,6 +69,14 @@
         letter-spacing: 2px;
     }
 
+    .story_img img{
+        width: 350px;
+        height: 370px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
     
 }
 
@@ -80,6 +88,14 @@
         display: flex;
         justify-content: center;
         margin-top: 30px;
+    }
+
+    .story_img img{
+        width: 380px;
+        height: 370px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
     }
 
     .story_img img{
