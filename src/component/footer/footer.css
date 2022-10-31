@@ -1,0 +1,74 @@
+.footer{
+    padding-top: 50px;
+    background: var(--primary);
+    color: #fff;
+}
+
+
+.footer_common{
+    margin-bottom: 30px;
+}
+
+
+.footer_common h5{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+
+.footer_common ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+.footer_common ul li{
+    font-size: 15px;
+    font-weight: 400px;
+    margin-bottom: 5px;
+}
+
+.footer_butom input {
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 8px 20px;
+    outline: none;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.footer_butom{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer_butom input::placeholder{
+    color: #fff;
+}
+
+
+.footer_butom button{
+    padding: 10px 20px;
+    background: #fff;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+}
+
+
+.border_div{
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.copirit{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
